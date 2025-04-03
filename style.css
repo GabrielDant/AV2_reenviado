@@ -1,0 +1,75 @@
+body {
+    background-color: red;
+}
+
+h1{
+    color: white
+    
+}
+.fan-club {
+    text-align: center; 
+    background-color: black; 
+    color: red; 
+    padding: 20px; 
+    border-radius: 100px; 
+    font-family: 'Courier New', monospace;
+}
+.cartipic {
+    display: flex;        
+    justify-content: center; 
+    align-items: center;   
+    height: 500px;        
+    background-color: red;
+    border-radius: 100px;
+}
+
+.cartipic img {
+    width: 300px;  /* Define a largura */
+    height: auto;  /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Sombra vermelha para um efeito estiloso */
+}
+
+.bio {
+    max-width: 800px;
+    margin: 0 0 0 20px; /* Margem apenas à esquerda de 20px (não centralizado) */
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    color: #8B0000;
+    border-radius: 12px;
+    background-color: #0f0101;
+    line-height: 1.6;
+    text-align: left; /* Garante alinhamento à esquerda */
+}
+
+/* Mantenha todo o resto do seu CSS EXATAMENTE como está abaixo */
+.bio h1 {
+    font-size: 24px;
+    color: #8B0000;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 5px;
+}
+
+.bio .intro {
+    font-style: italic;
+    color: #8B0000;
+}
+
+.bio h2 {
+    font-size: 20px;
+    margin-top: 25px;
+    color: #8B0000;
+}
+
+.bio p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #8B0000;
+}
+
+.bio-title {
+    background-color: #000000;
+    padding: 10px;
+    border-left: 4px solid #8B0000;
+    color: #8B0000; /* Adicione esta linha para mudar a cor do texto */
+}
